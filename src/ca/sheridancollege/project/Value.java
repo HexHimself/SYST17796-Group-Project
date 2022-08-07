@@ -1,3 +1,5 @@
+package ca.sheridancollege.project;
+
 
 
 public enum Value {
