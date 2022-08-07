@@ -3,7 +3,6 @@
  * Students can modify and extend to implement their game.
  * Add your name as an author and the date!
  */
-package ca.sheridancollege.project;
 
 /**
  * A class to be used as the base Card class for the project. Must be general enough to be instantiated for any Card
@@ -13,6 +12,30 @@ package ca.sheridancollege.project;
  */
 public abstract class Card {
     //default modifier for child classes
+    private Suit suit;
+    private Value value;
+
+    public Card(Suit suit, Value value){
+
+    }
+
+    public Suit getSuit() {
+        return suit;
+
+    }
+
+    public void setSuit() {
+
+    }
+
+    public Value getValue() {
+        return value;
+
+    }
+
+    public void setValue() {
+
+    }
 
     /**
      * Students should implement this method for their specific children classes
