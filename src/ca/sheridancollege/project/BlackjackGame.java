@@ -1,3 +1,5 @@
+package ca.sheridancollege.project;
+
 /**
  * SYST 17796 Project Base code.
  * Students can modify and extend to implement their game.
