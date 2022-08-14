@@ -1,6 +1,7 @@
 
 
 public enum Value {
+    
     ACE,
     TWO (2),
     THREE (3),
@@ -15,13 +16,18 @@ public enum Value {
     QUEEN (10),
     KING (10);
     
-    private final int numValue;
+    protected final int numValue;
     
     Value(int numValue) {
         this.numValue = numValue;
     }
     
-    private int getNumValue() {
+    public static Value randomValue() {
+        return
+    }
+    
+    
+    public int getNumValue() {
         return numValue;
     }
 }
